@@ -1,0 +1,29 @@
+{
+  "name": "remark-css-selectors",
+  "version": "1.0.0",
+  "description": "Adding class and id attribute to AST tree (not standard markdown syntax)",
+  "main": "/dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "Remark",
+    "css",
+    "selectors",
+    "attribute",
+    "id",
+    "className",
+    "experimental",
+    "syntax",
+    "html"
+  ],
+  "author": "robert.kami88@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "unist-util-filter": "^2.0.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
