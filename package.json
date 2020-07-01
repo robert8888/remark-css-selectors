@@ -1,6 +1,6 @@
 {
   "name": "remark-css-selectors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adding class and id attribute to AST tree (not standard markdown syntax)",
   "main": "/dist/index.js",
   "homepage": "https://github.com/robert8888/remark-css-selectors",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "babel lib --out-dir dist"
   },
   "keywords": [
     "Remark",
@@ -29,6 +29,9 @@
     "unist-util-filter": "^2.0.2"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12"
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/cli": "^7.10.4"
   }
 }
